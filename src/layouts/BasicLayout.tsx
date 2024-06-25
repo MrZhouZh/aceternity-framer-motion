@@ -16,6 +16,10 @@ const BasicLayout = () => {
       path: "/components/meteors",
       text: "Meteors",
     },
+    {
+      path: "/components/sticky-scroll-reveal",
+      text: "Sticky Scroll Reveal",
+    },
   ];
   return (
     <>
@@ -32,7 +36,7 @@ const BasicLayout = () => {
               <li key={link.path} className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <NavLink
                   to={link.path}
-                  className={({ isActive, isPending }) => cn("block w-full h-full", (isActive ? "active" : isPending ? 'pending' : ""))}
+                  className={({ isActive, isPending }) => cn("block w-full h-full", (isActive ? "text-blue-700" : isPending ? 'pending' : ""))}
                 >
                   {link.text}
                 </NavLink>

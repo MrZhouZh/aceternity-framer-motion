@@ -6,6 +6,7 @@ import Home from '@/views/Home';
 import CardHoverEffectDemo from '@/views/CardHoverEffectDemo';
 import ParallaxScrollDemo from '@/views/ParallaxScrollDemo';
 import MeteorsDemo from '@/views/MeteorsDemo';
+import StickyScrollRevealDemo from '@/views/StickyScrollDemo';
 
 import './App.css'
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
           {
             path: 'components/meteors',
             element: <MeteorsDemo />,
+          },
+          {
+            path: 'components/sticky-scroll-reveal',
+            element: <StickyScrollRevealDemo />,
           }
         ]
       }
