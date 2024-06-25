@@ -38,7 +38,7 @@ const MeteorsDemo = () => {
           </button>
 
           {/* Meaty part - Meteor effect */}
-          <Meteors number={20} />
+          <Meteors number={30} />
         </div>
       </div>
     </div>
