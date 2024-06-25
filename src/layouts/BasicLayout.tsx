@@ -10,6 +10,10 @@ const BasicLayout = () => {
       path: "/components/parallax-scroll",
       text: "Parallax Scroll",
     },
+    {
+      path: "/components/meteors",
+      text: "Meteors",
+    },
   ];
   return (
     <>

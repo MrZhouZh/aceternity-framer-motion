@@ -5,6 +5,7 @@ import ErrorPage from '@/layouts/ErrorPage/ErrorPage';
 import Home from '@/views/Home';
 import CardHoverEffectDemo from '@/views/CardHoverEffectDemo';
 import ParallaxScrollDemo from '@/views/ParallaxScrollDemo';
+import MeteorsDemo from '@/views/MeteorsDemo';
 
 import './App.css'
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
           {
             path: 'components/parallax-scroll',
             element: <ParallaxScrollDemo />,
+          },
+          {
+            path: 'components/meteors',
+            element: <MeteorsDemo />,
           }
         ]
       }
