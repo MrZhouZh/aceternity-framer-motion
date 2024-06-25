@@ -20,6 +20,14 @@ const BasicLayout = () => {
       path: "/components/sticky-scroll-reveal",
       text: "Sticky Scroll Reveal",
     },
+    {
+      path: "/components/text-generate-effect",
+      text: "Text Generate Effect",
+    },
+    {
+      path: "/components/grid-and-dot-backgrounds",
+      text: "Grid and Dot Backgrounds",
+    }
   ];
   return (
     <>

@@ -31,9 +31,13 @@ const images = [
 const ParallaxScrollDemo = () => {
   return (
     <>
-      <ParallaxScroll images={images} />
-      {/* <hr /> */}
-      <ParallaxScroll2 images={images} />
+      <div className="preview flex min-h-[350px] w-full justify-center p-2 sm:p-10 items-center  ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 relative rounded-md border bg-grid-small-black/[0.1] dark:bg-grid-small-white/[0.1]">
+        <ParallaxScroll images={images} />
+      </div>
+      <div className="h-4" />
+      <div className="preview flex min-h-[350px] w-full justify-center p-2 sm:p-10 items-center  ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 relative rounded-md border bg-grid-small-black/[0.1] dark:bg-grid-small-white/[0.1]">
+        <ParallaxScroll2 images={images} />
+      </div>
     </>
   )
 }
